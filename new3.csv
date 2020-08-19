@@ -1,0 +1,16 @@
+StudentId,Name,Gender,DateOfBirth,City,State,EmailId,Qualification,Stream
+1,Raj,Male,10-10-1995,Mumbai,Maharashtra,raj@gmail.com,B.E,Electronics
+2,Priyanka,Female,20-10-1995,Pune,Maharashtra,priyanka@gmail.com,B.Tech,IT
+5,Kabir,Male,2020-08-18,Mumbai,Maharashtra,rere@com.com,B.E,CS
+3,Rahul,Male,2020-08-20,Jaipur,Rajasthan,rahul@gmail.com,T.E,IT
+5,Kajal,Female,2020-07-29,Jaipur,Rajasthan,kajal@yahoo.com,T.E,CS
+6,lala,Male,2020-08-04,Mumbai,Maharashtra,lala@lala.com,B.E.,IT
+7,sandy,Female,2020-08-05,Mumbai,Maharashtra,rere@com.com,T.E,CS
+8,siva,Male,2020-08-04,Jaipur,Rajasthan,vs310199@gmail.com,T.E,Electronics
+9,neelam,Female,2020-08-19,Mumbai,Maharashtra,rohit_rocktheworld_14@yahoo.com,T.E,Electronics
+10,Kabir,Male,2020-08-03,Jaipur,Rajasthan,rere@com.com,T.E,Electronics
+11,Rajat,Male,2020-08-03,Jaipur,Rajasthan,vs310199@gmail.com,BE,Electronics
+12,Sumitra,Female,2020-08-06,Mumbai,Maharashtra,sumitra@gmail.com,T.E,IT
+13,Aditi,Female,2020-07-26,Mumbai,Maharashtra,vs310199@gmail.com,T.E,CS
+14,rocky,Male,2020-08-03,Jaipur,Rajasthan,vs310199@gmail.com,BE,Electronics
+15,Rohit,Male,2004-01-19,Agra,Uttar Pradesh,rohitvishssj5@gmail.com,SE,Electronics

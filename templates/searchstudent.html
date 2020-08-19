@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Case_study_2-Search</title>
+</head>
+
+<body>
+    <form action="/process2" , method="POST">
+        <h4>Type the Student ID you wish to search the information for.</h4>
+        <label for="id">Student ID</label> <br>
+        <input type="number" name="id">
+        <button type="submit">Search</button>
+    </form>
+    <div class="row">
+        <div class="column">
+            <p><b>Student Id</b></p>
+            <p><b>Student Name</b></p>
+            <p><b>Gender</b></p>
+            <p><b>Date Of Birth</b></p>
+            <p><b>City</b></p>
+            <p><b>State</b></p>
+            <p><b>Email Id</b></p>
+            <p><b>Qualification</b></p>
+            <p><b>Stream</b></p>
+        </div>
+        <div class="column">
+            {% for row_list_element in row_list %}
+            <p>{{ row_list_element }} </p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <style>
+        .column {
+            float: left;
+            width: 10%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</body>
+
+</html>

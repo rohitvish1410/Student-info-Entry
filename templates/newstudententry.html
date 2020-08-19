@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Case_study_2-New entry</title>
+
+</head>
+
+<body>
+    <form action="/process" method="POST">
+        <label for="id">Student ID</label> <br>
+        <input type="number" name="id" required> <br><br>
+        <label for="std_name">Student Name</label> <br>
+        <input type="text" name="std_name" required> <br><br>
+        <label for="gender">Gender</label> <br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label> <br><br>
+        <label for="dob">Date of Birth</label> <br>
+        <input type="date" name="dob" required> <br><br>
+        <label for="city">City</label> <br>
+        <input type="text" name="city" required> <br><br>
+        <label for="state">State</label> <br>
+        <input type="text" name="state" required> <br><br>
+        <label for="email">Email ID</label> <br>
+        <input type="email" name="email" required> <br><br>
+        <label for="qualification">Qualification</label> <br>
+        <input type="text" name="qualification" required> <br><br>
+        <label for="stream">Stream</label> <br>
+        <input type="text" name="stream" required> <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>New entry details will appear here on submission: </h3>
+    <h4><b>Student Id: </b>{{id}}</h4>
+    <h4><b>Name: </b>{{std_name}}</h4>
+    <h4><b>Gender: </b>{{gender}}</h4>
+    <h4><b>Date of Birth: </b>{{dob}}</h4>
+    <h4><b>City: </b>{{city}}</h4>
+    <h4><b>State: </b>{{state}}</h4>
+    <h4><b>Email Id: </b>{{email}}</h4>
+    <h4><b>Qualification: </b>{{qualification}}</h4>
+    <h4><b>Stream: </b>{{stream}}</h4>
+</body>
+
+</html>

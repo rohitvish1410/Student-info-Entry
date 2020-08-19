@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Case_study_2-Students' list</title>
+</head>
+
+<body>
+    <h2>Students' List</h2>
+    <h5>This list gets updated automatically on a new student entry</h5>
+    <table>
+        <thead>
+            <tr>
+                {% for header in all_rows[0].keys() %}
+                <th>{{header}}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in all_rows %}
+            <tr>
+                <td>{{row['StudentId']}}</td>
+                <td>{{row['Name']}}</td>
+                <td>{{row['Gender']}}</td>
+                <td>{{row['DateOfBirth']}}</td>
+                <td>{{row['City']}}</td>
+                <td>{{row['State']}}</td>
+                <td>{{row['EmailId']}}</td>
+                <td>{{row['Qualification']}}</td>
+                <td>{{row['Stream']}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</body>
+
+</html>
